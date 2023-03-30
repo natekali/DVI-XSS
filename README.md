@@ -30,7 +30,13 @@ You can now play with the example.js file or configure your own index.js file th
 So, it's pretty easy, you can use my pattern to choose your target website and your favorite payload.
 All the information to change is indicate by the //BIG LETTER COMMENTS and have a name similar to their function in the script, you can't make a mistake.
 
+* For the **input name** and the **type of button** use for submit, you have to go ahead and search for it directly on your website, like this example : 
+<img width="1491" alt="inspect" src="https://user-images.githubusercontent.com/117448792/228720857-56263c5d-948a-4569-93c1-73e1f80d7c7d.png">
+
+   You can now replace the value 'X' on the line 25, 26, 31, 32, 37 and 38.
+
 * For the url of you're website, you have to find a **potentially vulnerable website**, i personnaly choose for the example.js file a common XSS vulnerable website just for the example.
+
 * For the **payloads**, you can find them on the [Big List of Payload](https://github.com/payloadbox/xss-payload-list).
 
 Don't forget to add the meaning of your payloads in the line 11 of the script, it can be helpful for the understanding of your output :
