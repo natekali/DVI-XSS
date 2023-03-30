@@ -10,7 +10,7 @@ I had an assignment for an internship in the company Quarkslab, with the help of
 * **Server-side programming**
 
 ## Prerequisites
-Before use the DVI-XSS, make sure you **install** all this elements : 
+Before using the DVI-XSS, make sure you **install** all this elements : 
 * [VSCode or an other IDE](https://code.visualstudio.com/)
 * [NodeJS](https://nodejs.org/en)
 * [Puppeteer](https://www.npmjs.com/package/puppeteer) -> details in the installation topic below
@@ -33,7 +33,7 @@ All the information to change is indicate by the //BIG LETTER COMMENTS and have 
 * For the **input name** and the **type of button** use for submit, you have to go ahead and search for it directly on your website, like this example : 
 <img width="1491" alt="inspect" src="https://user-images.githubusercontent.com/117448792/228720857-56263c5d-948a-4569-93c1-73e1f80d7c7d.png">
 
-   You can now replace the value 'X' on the line 25, 26, 31, 32, 37 and 38.
+* You can now replace the value 'X' on the line 25, 26, 31, 32, 37 and 38.
 
 * For the url of you're website, you have to find a **potentially vulnerable website**, i personnaly choose for the example.js file a common XSS vulnerable website just for the example.
 
@@ -42,3 +42,9 @@ All the information to change is indicate by the //BIG LETTER COMMENTS and have 
 Don't forget to add the meaning of your payloads in the line 11 of the script, it can be helpful for the understanding of your output :
 
 ```console.log('1 : <first_payload_type XSS> | 2 : <second_payload_type XSS> | 3 : <third_payload_type XSS>');```
+
+Output of the DVI-XSS :
+<img width="574" alt="output" src="https://user-images.githubusercontent.com/117448792/228722923-e5696b64-3bda-4a56-b644-ef2967e84c10.png">
+
+## Author
+* [@natekali](https://github.com/natekali)
